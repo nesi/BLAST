@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 #SBATCH --account=nesi99999
-#SBATCH --job-name=BLAST-par
+#SBATCH --job-name=BLAST_par
 #SBATCH --time=00:15:00 # Allow 100 CPU hrs / GB of blastn query seq
 #SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=1500

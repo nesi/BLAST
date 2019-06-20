@@ -14,4 +14,4 @@ DB=nt
 INPUT="/nesi/project/nesi99999/Callum/BLAST/input.fasta"
 ##======Path_variables================
 
-srun $BLASTAPP -db $DB -query $INPUT
+$BLASTAPP -db $DB -query $INPUT
